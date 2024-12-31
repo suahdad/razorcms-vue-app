@@ -10,17 +10,15 @@ export default {
 </script>
 
 <template>
-<header>
-  <razor-search-component></razor-search-component>
-</header>
-<aside class="left-section">
-  <razor-navigation-sidebar-component></razor-navigation-sidebar-component>
-</aside>
-<aside class="right-section"></aside>
+<razor-navigation-sidebar-component></razor-navigation-sidebar-component>
 <main>
+  <header>
+    <razor-search-component></razor-search-component>
+  </header>
   <razor-table-component></razor-table-component>
+  <footer></footer>
 </main>
-<footer></footer>
+
 </template>
 
 <style scoped>
