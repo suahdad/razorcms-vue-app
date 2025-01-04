@@ -8,26 +8,16 @@
     --color-bg-sub: #15012E;
     --color-primary-1: #6B46C1;
     --color-primary-2: #805AD5;
-}
 
+    --sidebar-width: 240px;
+    --main-header-height: 80px;
+    --main-width: calc(100vw - var(--sidebar-width));
+}
 .bg-main{
     background-color: var(--color-bg-main);
     color: white;
 }
 .bg-sub{
-    background-color: var(--color-bg-sub);
-    color: white;
-
-}
-nav a{
-    display: block;
-    height: 60px;
-    width: 100%;
-    padding-left: 60px;
-    line-height: 60px;
-}
-
-nav ul>li>a:hover{
     background-color: var(--color-bg-sub);
     color: white;
 }

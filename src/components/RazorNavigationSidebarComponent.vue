@@ -5,7 +5,7 @@ export default {
 </script>
 
 <template>
-  <aside class="fixed bg-main h-dvh w-60">
+  <aside class="fixed bg-main h-dvh comp-width">
     <nav>
       <header>
         <a href="#">BRAND</a>
@@ -27,5 +27,21 @@ export default {
 </template>
 
 <style scoped>
+.comp-width {
+  width: var(--sidebar-width);
+}
+
+nav a{
+  display: block;
+  height: 60px;
+  width: 100%;
+  padding-left: 60px;
+  line-height: 60px;
+}
+
+nav ul>li>a:hover{
+  background-color: var(--color-bg-sub);
+  color: white;
+}
 
 </style>
